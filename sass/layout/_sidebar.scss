@@ -1,0 +1,22 @@
+.nav {
+  padding: 35px 0 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+  }
+  &__item {
+    color: #83888f;
+    font-family: Barlow;
+    //   color: $grey;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+  }
+}
