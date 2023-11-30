@@ -4,6 +4,7 @@
   justify-content: space-between;
   background-color: #2c343e;
   padding: 47px 85px;
+  margin-bottom: 50px;
   &__nav {
     display: flex;
     gap: 100px;
@@ -23,16 +24,26 @@
     letter-spacing: 0.923px;
     text-transform: uppercase;
   }
+  &__item:hover {
+    color: #fefcf7;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+  }
   &__icons {
     display: flex;
     gap: 20px;
     img {
-        width: 24px;
-        height: 20px;
-        position: relative;
+      width: 24px;
+      height: 20px;
+      position: relative;
     }
     img:hover {
-        bottom: 3px;
+      bottom: 3px;
     }
   }
 }
